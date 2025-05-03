@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
-
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -87,17 +81,17 @@
 }
 
 .masthead {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/Gamecube_banner.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/Gamecube_banner.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/Gamecube_banner.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 1) 100%), url("../img/Gamecube_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 .masthead h1 {
@@ -167,9 +161,9 @@
 }
 
 .about-section {
-  padding-top: 5rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+    padding-top: 5rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 1) 0%, rgba(22, 22, 22, 0.8) 100%);
 }
 
 .about-section p {
@@ -177,7 +171,8 @@
 }
 
 .projects-section {
-  padding: 4rem 0;
+    padding: 4rem 0;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.7) 0%, rgba(22, 22, 22, 0.6) 5%, rgba(22, 22, 22, 0.5) 10%,rgba(22, 22, 22, 0.4) 15%, rgba(22, 22, 22, 0.3) 20%, rgba(22, 22, 22, 0.2) 25%, rgba(22, 22, 22, 0.1) 30%, rgba(22, 22, 22, 0.0) 100%);
 }
 
 .projects-section .featured-text {
@@ -219,29 +214,6 @@
   cursor: pointer;
 }
 
-/*
-.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.2) 75%, rgba(22, 22, 22, 0.3) 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
-*/
 .contact-section {
   padding: 2rem 0 2rem 0;
 }
@@ -330,8 +302,8 @@ footer {
 
 /*----------LOGO BLOCK----------------------*/
 .logos-list {
-  background: linear-gradient(to bottom,  rgba(22, 22, 22, 0.8) 0%,  rgba(22, 22, 22, 0.7) 75%, rgba(22, 22, 22, 0.7) 100%);
-  padding: 0px 0px 20px 0px;
+  background: linear-gradient(to bottom,  rgba(22, 22, 22, 0.8) 0%, rgba(22, 22, 22, 0.7) 100%);
+  padding: 20px 0px;
   width: 100%;
   text-align: center;
 }
@@ -528,53 +500,17 @@ footer {
   display: inline-block;
 }
 
-.line {
-  height: 200px;
-  background: none;
-  margin-top: 10px;
-  margin-right:0px;
-  margin-left:60px;
-  width: 7px;
-  position: relative;
-  padding: 0px 0px 0px 0px;
-  vertical-align: middle;
-}
-
 .our-progress > div {
   display: inline-block;
 }
 
-.line .line-active {
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #e08d48;
-  display: inline-block;
-  margin: auto;
-}
-
-.line-active span {
-  position: relative;
-  right: 0;
-  top: -12px;
-  padding: 5px;
-  background: #e08d48;
-  color: #ffffff;
-  display: inline-block;
-  font-size: 13px;
-}
-
 .our-progress h5{
-  color: #a7e2df; /*#64a19d*/
+  color: #a7e2df; 
   font-weight: bold;
   padding: 0px 10px 0px 10px;
   text-align: center;
 }
 
 .skills {
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.7)  0%, rgba(22, 22, 22, 0.5) 75%, rgba(22, 22, 22, 0.4) 100%);
-}
-
-.line-active span:after {
-  content: '%';
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.7) 0%, rgba(22, 22, 22, 0.7) 100%);
 }
